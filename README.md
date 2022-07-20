@@ -1,6 +1,5 @@
 # Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course
 
-
 ## Projects
 I have Completed the following projects：
 - Impl Merkle Tree following RFC6962
@@ -9,3 +8,4 @@ I have Completed the following projects：
 - Implement the naïve birthday attack of reduced SM3
 - Implement length extension attack for SM3
 - Implement length extension attack for SHA256
+- Implement the Rho method of reduced SM3
