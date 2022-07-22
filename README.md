@@ -10,3 +10,4 @@ I have Completed the following projects：
 - Implement length extension attack for SHA256
 - Implement the Rho method of reduced SM3
 - Do your best to optimize SM3 implementation (software)
+- Optimize SM4 implementation
