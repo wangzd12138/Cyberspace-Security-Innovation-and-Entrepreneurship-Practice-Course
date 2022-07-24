@@ -11,4 +11,4 @@ I have Completed the following projects：
 - Implement the Rho method of reduced SM3
 - Do your best to optimize SM3 implementation (software)
 - Optimize SM4 implementation
-- Verify the above pitfalls with proof-of-concept cod(Signatures pitfalls summary)
+- Verify the above pitfalls with proof-of-concept cod( Signatures pitfalls summary)
