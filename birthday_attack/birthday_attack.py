@@ -58,6 +58,6 @@ def birthday_attack(len):
     
 if __name__ == '__main__':
     # 碰撞bit长度
-    bit_length = 16 
+    bit_length = 20 
     collision, msg1, msg2 = birthday_attack(bit_length)
     print(f"消息{msg1}与{msg2}哈希值的前{bit_length}bit相同,16进制表示为:{collision}。")
