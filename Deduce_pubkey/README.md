@@ -17,7 +17,7 @@ $s=k^{-1}(e+dr)\Rightarrow s\cdot kG=eG+dG\cdot r\Rightarrow s\cdot kG-eG=Q\cdot
 
 已知上式中$s,r,e=H(m)$，则只需$P=kG$，即可恢复出正确的验签公钥$Q$.
 
-但是敌手并不知道$P$，只知道$r \equiv x \mod n，x\in[1,p],p$为椭圆曲线上素域的阶，通常来说$n\lt p$，因此一个$r$可能对应两个$x$：
+但是如果不知道$P$，只知道$r \equiv x \mod n，x\in[1,p],p$为椭圆曲线上素域的阶，通常来说$n\lt p$，因此一个$r$可能对应两个$x$：
 
 - 若$r\lt p-n$，则$x=r$或$ x=r+n$
 - 若$r\gt p-n$，则$x=r$
@@ -32,4 +32,4 @@ $s=k^{-1}(e+dr)\Rightarrow s\cdot kG=eG+dG\cdot r\Rightarrow s\cdot kG-eG=Q\cdot
 ## 运行截图
 代码运行如图
 
-![代码运行截图](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/birthday_attack/birthday_attack.png)
+![代码运行截图](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/Deduce_pubkey/Deduce_pubkey.png)
