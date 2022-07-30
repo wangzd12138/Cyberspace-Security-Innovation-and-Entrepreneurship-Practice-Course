@@ -9,9 +9,15 @@
 
 
 使用SM4与SM2实现PGP方案，思路如下图：
+
+
+
 ![思路](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/PGP/PPT.png)
 
 
+加密时使用SM4加密message = "May the flames guide your way"，SM2加密会话密钥；
+
+解密,使用SM2解密求得会话密钥，再使用SM4和会话密钥解密原消息。
 
 ## 运行指导
 - 需要安装gmssl库
