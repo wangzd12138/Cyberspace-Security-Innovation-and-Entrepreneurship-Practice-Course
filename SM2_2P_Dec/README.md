@@ -16,6 +16,7 @@
 
 
 SM2 2P decrypt方案思路如图：
+![方案思路](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/SM2_2P_Dec/PPT.png)
 
 
 ## 运行指导
