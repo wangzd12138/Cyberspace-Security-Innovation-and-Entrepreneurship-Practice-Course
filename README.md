@@ -1,9 +1,17 @@
 # Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course
 ## 个人信息
 **作者：**  王智栋
+
+
 **学号：**  201900180122
+
+
 **Github账号：**  [wzd12138](https://github.com/wzd12138)
+
+
 **备注：**  本代码库中项目的**分析**，**代码**，**RADEME.md**均为个人独自完成
+
+
 
 ## Projects
 完成了以下项目：
@@ -26,4 +34,6 @@
 ## 备注
 各项目的项目代码说明，运行指导及代码运行全过程截图均位于各项目文件夹中
 
-其中，所有项目代码运行全过程截图存放于image文件夹
+
+
+其中，**所有项目代码运行全过程截图均存放于image文件夹**
