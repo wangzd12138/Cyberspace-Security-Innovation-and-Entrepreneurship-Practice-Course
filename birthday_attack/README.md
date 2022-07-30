@@ -18,4 +18,4 @@ birthday_attack.py与SM3.py放于同级目录下，运行birthday_attack.py
 ## 运行截图
 以寻找前20bit碰撞为例，代码运行如图
 
-![代码运行截图](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/pictures/birthday_attack/birthday_attack.png)
+![代码运行截图](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/birthday_attack/birthday_attack.png)
