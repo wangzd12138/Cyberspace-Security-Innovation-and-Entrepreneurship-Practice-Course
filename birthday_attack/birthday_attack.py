@@ -60,4 +60,8 @@ if __name__ == '__main__':
     # 碰撞bit长度
     bit_length = 20 
     collision, msg1, msg2 = birthday_attack(bit_length)
-    print(f"消息{msg1}与{msg2}哈希值的前{bit_length}bit相同,16进制表示为:{collision}。")
+    hash_msg1=SM3.SM3(str(msg1))
+    hash_msg2=SM3.SM3(str(msg2))
+    print(f"消息1hash值为 ： {hash_msg1}")
+    print(f"消息2hash值为 ： {hash_msg2}")
+    print(f"前{bit_length}bit相同,16进制表示为:{collision}。")
