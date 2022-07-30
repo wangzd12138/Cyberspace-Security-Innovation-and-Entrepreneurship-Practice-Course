@@ -18,7 +18,7 @@ void benchmark_sm4(const unsigned char* key, int forEncryption,const unsigned ch
     }
 
     clock_t end_time = clock();
-    printf("进行 %d 次SM4加密需要 %d 时钟周期\n", number, (end_time - start_time));
+    printf("进行 %d 次SM4加密需要 %d s\n", number, (end_time - start_time)/ CLOCKS_PER_SEC);
     /*
     for (i = 0; i < 16; i++) {
         sprintf(hash + i * 2, "%02X", (buf[i] & 0x0FF));
@@ -36,8 +36,8 @@ int main() {
         0x74, 0xB0, 0xDC, 0x51, 0x19, 0x49, 0x5C, 0xFF,
         0x2A, 0xE8, 0x94, 0x4A, 0x62, 0x55, 0x58, 0xEC
     };
-    benchmark_sm4(key, 1, input,1000000);
-    /*
+    benchmark_sm4(key, 1, input,10000000);
+    
     unsigned char buf[16] = { 0 };
     char hash[33] = { 0 };
 
@@ -49,5 +49,5 @@ int main() {
     }
 
     printf("hash = %s\n", hash);
-    */
+    
 }
