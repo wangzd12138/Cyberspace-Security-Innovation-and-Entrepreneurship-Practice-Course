@@ -25,7 +25,7 @@ void benchmark_sm3(const unsigned char* input, unsigned int iLen, int number) {
 
     sm3_done(&ctx, buf);
     clock_t end_time = clock();
-    printf("进行 %d 次SM3运算需要 %d 时钟周期\n",number,(end_time - start_time));
+    printf("进行 %d 次SM3运算需要 %d s\n",number,(end_time - start_time)/ CLOCKS_PER_SEC);
 
     for (i = 0; i < 32; i++) {
         sprintf(hash + i * 2, "%02X", (buf[i] & 0x0FF));
@@ -42,7 +42,7 @@ int main(int argc, char** argv) {
                        0xaa,0xaa,0xaa,0xaa,0xaa,0xaa,0xaa,0xaa,0xaa,0xaa,0xaa,0xaa,0xaa,0xaa,0xaa,
                        0xaa,0xaa,0xaa,0xaa };
     
-    benchmark_sm3(test_input, 64, 1000000);
+    benchmark_sm3(test_input, 64, 10000000);
 
 
     sm3_context ctx;

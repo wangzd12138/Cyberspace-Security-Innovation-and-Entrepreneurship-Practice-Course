@@ -1,0 +1,4 @@
+﻿  main.c
+E:\Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course\sm3_C\main.c(55,24): warning C4013: “strlen”未定义；假设外部返回 int
+E:\Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course\sm3_C\main.c(48,17): warning C4101: “ctx”: 未引用的局部变量
+  sm3_C.vcxproj -> E:\Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course\sm3_C\Debug\sm3_C.exe
