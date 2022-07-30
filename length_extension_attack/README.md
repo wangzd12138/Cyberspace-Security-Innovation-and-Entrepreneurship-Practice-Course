@@ -27,7 +27,7 @@
 
 ### SM3
 
-![SM3代码运行截图](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/Forge_a_signature/Forge_a_signature.png)
+![SM3代码运行截图](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/length_extension_attack/SM3.png)
 
 ### SHA256
-![SHA256代码运行截图](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/Forge_a_signature/Forge_a_signature.png)
+![SHA256代码运行截图](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/length_extension_attack/SHA256.png)
