@@ -1,7 +1,8 @@
 # Optimize_SM3
 
 ## Project
-Implement the naïve birthday attack of reduced SM3
+ do your best to optimize SM3 implementation (software)
+
 
 ## 代码说明
 该项目文件为Visual Studio编写的C项目文件
@@ -9,7 +10,7 @@ Implement the naïve birthday attack of reduced SM3
 **文件说明**
 
 - **main.c** : benchmark代码，并给出一个压缩实例
-- **sm3.c.py** ： SM3算法函数定义，宏函数定义及实现过程
+- **sm3.c** ： SM3算法函数定义，宏函数定义及实现过程
 - **sm3.h** ： SM3算法函数声明
 - **Debug** ： Visual Studio x86下debug模式运行生成
 - **Release** ： Visual Studio x86下release模式运行生成
