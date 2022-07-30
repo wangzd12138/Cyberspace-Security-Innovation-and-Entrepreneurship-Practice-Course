@@ -25,7 +25,9 @@ void benchmark_sm3(const unsigned char* input, unsigned int iLen, int number) {
 
     sm3_done(&ctx, buf);
     clock_t end_time = clock();
-    printf("½øĞĞ %d ´ÎSM3ÔËËãĞèÒª %d s\n",number,(end_time - start_time)/ CLOCKS_PER_SEC);
+    
+    printf("è¿›è¡Œ %d æ¬¡SM3è¿ç®—éœ€è¦ %d s\n",number,(end_time - start_time)/ CLOCKS_PER_SEC);
+    printf("æ¯ç§’è¿›è¡Œ %d æ¬¡SM3è¿ç®—\n", number / ((end_time - start_time) / CLOCKS_PER_SEC));
 
     for (i = 0; i < 32; i++) {
         sprintf(hash + i * 2, "%02X", (buf[i] & 0x0FF));
