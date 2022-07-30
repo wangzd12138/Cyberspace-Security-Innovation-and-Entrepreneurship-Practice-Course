@@ -20,4 +20,4 @@ ECMH整体思路是：先把集合里的元素映射成椭圆曲线上的点，�
 ## 运行截图
 代码运行如图
 
-![代码运行截图](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/Deduce_pubkey/Deduce_pubkey.png)
+![代码运行截图](https://github.com/wzd12138/Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course/blob/main/image/ECMH/ECMH.png)
