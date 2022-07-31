@@ -9,7 +9,7 @@
 **Github账号：**  [wzd12138](https://github.com/wzd12138)
 
 
-**备注：**  本代码库中项目的**分析**，**代码**，**RADEME.md**均为个人独自完成
+**备注：**  本代码库中项目的**分析**，**代码**，**RADEME.md**均为个人完成
 
 
 
@@ -31,6 +31,7 @@
 - Implement sm2 2P sign with real network communication
 - Implement sm2 2P decrypt with real network communication
 
+其余项目未完成
 ## 备注
 各项目的项目代码说明，运行指导及代码运行全过程截图均位于各项目文件夹中
 
