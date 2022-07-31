@@ -1,9 +1,6 @@
 # Cyberspace-Security-Innovation-and-Entrepreneurship-Practice-Course
 ## 个人信息
-**作者：**  王智栋
-
-
-**学号：**  201900180122
+**作者：**  王智栋   201900180122
 
 
 **Github账号：**  [wzd12138](https://github.com/wzd12138)
@@ -32,6 +29,7 @@
 其余项目未完成
 ## 备注
 各项目的项目代码说明，运行指导及代码运行全过程截图均位于各项目文件夹中
+
 
 
 
