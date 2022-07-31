@@ -26,7 +26,7 @@
 - Implement a PGP scheme with SM2
 - Forge a signature to pretend that you are Satoshi
 
-其余项目未完成
+其余项目未完成。
 ## 备注
 各项目的项目代码说明，运行指导及代码运行全过程截图均位于各项目文件夹中
 
